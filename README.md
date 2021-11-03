@@ -12,6 +12,16 @@ Go to ``` https://<your-app-name>.herokuapp.com/ ``` and you should see ``` Hell
 Go to ``` https://<your-app-name>.herokuapp.com/user ``` and you should see the backend response ``` User home route ```
 
 ## Local Commands
+### Initialize
+Before you do anything, make sure you install all the dependencies in the ``` package.json ``` file locally in the root folder and in the server folder by doing
+```
+npm install 
+```
+and then ``` cd server ``` and
+```
+npm install 
+```
+
 ### React
 To start the React app, go to the root of the folder and run 
 ```
@@ -20,11 +30,7 @@ npm run dev
 will launch the React client at http://localhost:3000/
 
 ### Express Node
-To start the Express backend, from the root folder, cd to the server folder
-```
-cd server
-```
-and then
+To start the Express backend, from the root folder, ``` cd server ``` and then
 ```
 npm run dev
 ```
